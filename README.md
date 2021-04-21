@@ -31,3 +31,16 @@ https://www.notion.so/Indoor-b2d7162c354a4d04ba5865b3dbe04665
 - 27…26で，画像のデータをconcatするだけでなく，学習にも用いる
 - 28…wifiの閾値を1にしてみた
 - 29…100行じゃなくて200行にしてみた
+- 30…全部embeddingにした
+- 31…並びを，交互になるように変更
+- 32…waypointベース
+- 33…wifiの下限を増やした
+- 34…31でfreq追加
+- 35…lastseenとwaypointのtime差離れてるもの削除(trainだけ)
+- 36…35，testも
+- 37…time差を20秒に変更
+- 38…10秒に変更
+
+other
+
+- make_Dataset…データセット作った

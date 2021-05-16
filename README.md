@@ -51,8 +51,24 @@ https://www.notion.so/Indoor-b2d7162c354a4d04ba5865b3dbe04665
 - 48…ゴミ
 - 50…delta+25閾値
 - 51…ゴミ
+- 52…時系列検討
+- 53…magnを特徴量に追加．oofの後にgrpbyして平均
+- 54…magnはなして，平均
+- 55…floorもlossに
+- 56…エラー20以上は使わない
+- 57…わすれた
+- 58…時系列完成
+- 59…gru三層に変更
+- 60…floor追加
+- 61…passedtime追加
+- 62…わすれた
+- 63…56で後処理6かい
+- 64…56だしなおし．
 
 
 other
 
 - make_Dataset…データセット作った
+- make_Dataset_allwifibase…testもwifiベース
+- make_delta_Dataset…上記で作ったデータセットにdeltaを足す
+- make_delta_Dataset_allwifibase…上記で作ったデータセットにdeltaを足す，testもwifiベース
